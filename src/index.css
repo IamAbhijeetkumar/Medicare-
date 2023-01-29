@@ -6,7 +6,6 @@ body {
   height: auto;
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
-  border: 2px solid black;
   background: #f8fdff;
   border-radius: 0px;
 }
@@ -3215,7 +3214,7 @@ h3 {
     color: #667c94;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   body {
     width: 100%;
     height: auto;
