@@ -1,0 +1,3966 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Roboto:ital,wght@0,400;0,500;1,500&family=Source+Sans+Pro:wght@400;600&family=Ubuntu:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  border: 2px solid black;
+  background: #f8fdff;
+  border-radius: 0px;
+}
+
+code {
+  font-family: "Chivo Mono", monospace;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Navbar {
+  width: 100%;
+  height: 800px;
+  background: url("/public/images/Oval\ +\ Oval\ Copy\ Mask.png");
+  z-index: 9999;
+  background-size: cover;
+  display: inline-flex;
+}
+.Navbar .burger {
+  justify-content: flex-end;
+  display: flex;
+  visibility: hidden;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Navbar .burger i {
+  text-decoration: none;
+  font-size: 40px;
+  justify-content: flex-e;
+  display: inline-flex;
+}
+
+.logo {
+  font-family: "Source Sans Pro";
+  height: 43px;
+  width: 159px;
+  left: 50px;
+  top: 60px;
+  margin-left: 10%;
+  z-index: 9999;
+  border-radius: nullpx;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo {
+  color: #0073ff;
+  font-size: 30px;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.logo span {
+  color: #ff9f6a;
+  font-family: "Source Sans Pro";
+}
+
+.menu-list {
+  margin-left: auto;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  z-index: 9999;
+  margin-right: 60px;
+}
+
+.menu-list ul li {
+  z-index: 9999;
+  list-style-type: none;
+  display: inline-flex;
+  padding: 15px 30px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.menu-list ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #0073ff;
+}
+/* .Oval {
+  box-sizing: border-box;
+  position: absolute;
+  left: -12.01%;
+  right: 78.56%;
+  top: -4.21%;
+  bottom: 95.68%;
+  border: 100px solid #ffffff;
+  box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  border-radius: 300px;
+  height: 482px;
+  width: 482px;
+  left: -173px;
+  top: -238px;
+} */
+
+.button {
+  width: 11rem;
+  height: 2.5rem;
+  z-index: 9999;
+  background-color: #0073ff;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: none;
+  margin-top: 18px;
+}
+
+/* .Navbar .Circle {
+  position: absolute;
+  box-sizing: content-box;
+  left: 60.72%;
+  right: -15.61%;
+  top: -6.55%;
+  bottom: 92.55%;
+  position: absolute;
+  background-color: #ffffff;
+  border: 100px solid #ffffff;
+  box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  border-radius: 500px;
+  height: 791px;
+  width: 791px;
+  top: -470px;
+  right: -250px;
+} */
+.Navbar .Rectangle {
+  height: 572px;
+  width: 500px;
+  left: 745px;
+  top: 141px;
+  border-radius: 32px;
+  background: #ebeeff;
+  position: absolute;
+  left: 55.7%;
+  right: 10.47%;
+  top: 15.49%;
+  bottom: 85.62%;
+  border-radius: 32px;
+  z-index: 9999;
+}
+
+.Welcome-Message {
+  height: 672px;
+  width: 40%;
+  left: 745px;
+  top: 141px;
+  position: absolute;
+  left: 8.7%;
+  right: 68.47%;
+  top: 25.49%;
+  bottom: 85.62%;
+  border-radius: 32px;
+  z-index: 9999;
+}
+.Welcome-Message h5 {
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #002348;
+}
+.Welcome-Message h1 {
+  font-family: Source Sans Pro;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #003b79;
+}
+h6 {
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #002348;
+}
+
+.Welcome-Message .button1 {
+  height: 2.5rem;
+  width: 40%;
+  left: 10px;
+  bottom: 230px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  background: #007ff4;
+  position: absolute;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.Welcome-Message .button2 {
+  height: 2.5rem;
+  width: 40%;
+  right: 10px;
+  bottom: 230px;
+  font-size: 15px;
+  border-radius: 30px;
+  color: #007ff4;
+  position: absolute;
+  border-radius: 30px;
+  border: none;
+  background-color: #ffffff;
+}
+.Welcome-Message .button2:hover {
+  border: 2px solid #007ff4;
+}
+
+.head {
+  width: 100%;
+  height: 5rem;
+  background-color: #f8fdff;
+  z-index: 9999;
+}
+.head h1 {
+  font-family: Source Sans Pro;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #003b79;
+}
+
+.main-window {
+  margin-top: 40px;
+  width: 100%;
+  height: 700px;
+  background-color: #f8fdff;
+  z-index: 9999;
+}
+.main-window h4 {
+  height: 78px;
+  width: 90%;
+  top: 1111px;
+  margin: auto;
+  border-radius: nullpx;
+  color: #002348;
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.main-window .Element {
+  width: 90%;
+  height: 32rem;
+  display: inline-flex;
+  margin-left: 50px;
+  padding-left: 40px;
+  margin-top: 50px;
+}
+.main-window .card {
+  width: 20%;
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+  height: 60%;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+}
+
+.main-window .card:hover {
+  background-color: #0073ff;
+  width: 20%;
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+  height: 65%;
+  border-radius: 30px;
+  box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+}
+.main-window .card .btn {
+  background-color: #0073ff;
+  height: 30%;
+  border: none;
+  color: #ffffff;
+  text-align: left;
+  width: 95%;
+  margin-top: 0;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+  opacity: 0;
+  border-bottom-right-radius: 20px;
+}
+.main-window .card .btn:hover {
+  visibility: visible;
+  opacity: 1;
+  color: #ffffff;
+}
+
+.main-window .card .btn {
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.main-window .card .btn i {
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left: 90px;
+}
+.main-window .card .Icon a {
+  margin-top: 18px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.main-window .card .Icon a i {
+  margin-top: 18px;
+  color: #007df2;
+  margin-left: 2rem;
+  font-size: 6rem;
+}
+.main-window .card .Icon :hover {
+  margin-top: 18px;
+  color: #ffffff;
+  font-size: 6rem;
+}
+
+.main-window .card h3 {
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-left: 2rem;
+  padding-top: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #002348;
+}
+
+.clinic {
+  width: 100%;
+  height: 1100px;
+  display: inline-flex;
+  background-color: #f8fdff;
+}
+
+.clinic .container {
+  width: 700;
+  height: 1100px;
+  background-color: #f8fdff;
+}
+.clinic .container .Tagline {
+  border-radius: nullpx;
+  margin-top: 370px;
+  margin-left: 120px;
+  display: grid;
+  font-family: Source Sans Pro;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  color: #003b79;
+}
+
+.clinic .container .Tagline .msg {
+  height: 78px;
+  width: 546px;
+  left: 120px;
+  top: 2376px;
+  border-radius: nullpx;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #002348;
+}
+.clinic .container .Tagline .Learnmore {
+  height: 60px;
+  width: 186px;
+  left: 0px;
+  top: 0px;
+  border-radius: 30px;
+  background: #007ff4;
+}
+.clinic .container .card1 {
+  position: absolute;
+  height: 242px;
+  width: 282px;
+  left: 750px;
+  top: 1850px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 20px;
+}
+.clinic .container .card2 {
+  position: absolute;
+  height: 242px;
+  width: 282px;
+  left: 1080px;
+  top: 2080px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 20px;
+}
+.clinic .container .card3 {
+  position: absolute;
+  height: 242px;
+  width: 282px;
+  left: 750px;
+  top: 2316px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 20px;
+}
+.clinic .container .Icon img {
+  border-radius: 100px;
+  width: 232px;
+  height: 232px;
+  margin-top: -130px;
+  margin-left: 27px;
+}
+
+h3 {
+  font-family: Source Sans Pro;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #002348;
+}
+.xcontainer {
+  width: 100%;
+  height: auto;
+  background: url("/public/images/Oval\ Copy\ 2\(1\).png");
+}
+.xcontainer .head {
+  width: 100%;
+  height: 5rem;
+  background-color: transparent;
+  z-index: 9999;
+}
+.head h1 {
+  width: 100%;
+  font-family: Source Sans Pro;
+  font-size: 54px;
+  font-weight: 600;
+  background-color: transparent;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #003b79;
+}
+
+.main-window {
+  margin-top: 40px;
+  width: 100%;
+  background-color: transparent;
+  height: 700px;
+  justify-content: end;
+  z-index: 9999;
+}
+
+.main-window h4 {
+  height: 78px;
+  width: 546px;
+  top: 1111px;
+  margin: auto;
+  border-radius: nullpx;
+  color: #002348;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.main-window .Elements {
+  width: 90%;
+  display: inline-flex;
+  height: 600px;
+  margin: auto;
+  padding-left: 40px;
+  margin-top: 50px;
+}
+.main-window .card9 {
+  width: 22%;
+  margin-left: 40px;
+  margin-right: 10px;
+  height: 450px;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+}
+
+.main-window .card9 .frame {
+  font-weight: 700;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  background: #aed3e2;
+  height: 80%;
+  color: #003b79;
+}
+.main-window .card9 h3 {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-left: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #002348;
+}
+.main-window .card9 h2 {
+  /* Mask */
+  margin-top: 8px;
+  margin-bottom: 0px;
+  margin-left: 18px;
+  font-size: 22px;
+  color: #002348;
+}
+.main-window .card9 h6 {
+  font-size: 15px;
+  top: 0;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #002348;
+}
+
+.heads {
+  width: 100%;
+  height: 5rem;
+  background-color: #f8fdff;
+  z-index: 9999;
+}
+
+.heads h1 {
+  font-family: Source Sans Pro;
+  font-size: 40px;
+  border: none;
+  font-weight: 600;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 120px;
+  margin-top: 80px;
+  color: #003b79;
+}
+
+.container5 {
+  width: 100%;
+  overflow-x: hidden;
+  height: 500px;
+  background: #f8fdff;
+  display: inline-flex;
+}
+
+.container5 .mcard {
+  width: 45%;
+  height: 294px;
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.container5 .mcard img {
+  z-index: 999;
+  width: 83px;
+  height: 83px;
+  border-radius: 90px;
+  border: none;
+  margin-left: 560px;
+  padding-top: 10px;
+  margin-top: -40px;
+}
+
+.comment-box {
+  width: 80%;
+  height: 60%;
+  margin: 3% 10%;
+}
+.comment-box h5 {
+  width: 442px;
+  font-family: Source Sans Pro;
+  font-size: 22px;
+  padding: 0 10px 0px 10px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0;
+  margin-bottom: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.comment-box .patient {
+  width: 80%;
+  display: inline-flex;
+  height: 80px;
+}
+.comment-box .patient .avtar {
+  width: 80px;
+  height: 80px;
+}
+.comment-box .patient .avtar img {
+  width: 58px;
+  height: 58px;
+  border-radius: 100px;
+  border: 1px solid black;
+  margin: 10px 10px;
+}
+.comment-box .patient .Name h3 {
+  margin: 10px 0px 0px 10px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Source Sans Pro";
+}
+.comment-box .patient .Name h6 {
+  margin: 5px 0px 0px 10px;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+}
+.container6 {
+  width: 100%;
+  height: 800px;
+  z-index: 90;
+  background-color: transparent;
+}
+.container6 .cardx {
+  width: 88%;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 478px;
+  background-color: #007ff4;
+  z-index: 999;
+  border-radius: 20px;
+}
+.container6 .cardx .head3 {
+  width: 100%;
+  height: 5rem;
+  background: transparent;
+}
+.container6 .cardx .head3 h1 {
+  font-family: Source Sans Pro;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 78px;
+  padding-top: 50px;
+  z-index: 9999;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container6 .cardx .head3 h4 {
+  height: 78px;
+  width: 546px;
+  top: 1111px;
+  margin: auto;
+  border-radius: nullpx;
+  color: #ffffff;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.Slider {
+  width: 70%;
+  height: 120px;
+  margin-top: 150px;
+  margin-left: 15%;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.Slider input {
+  width: 60%;
+  height: 35px;
+  border: 1px solid #ffffff;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 12%;
+  background-color: #ffffff;
+}
+.Slider .send {
+  height: 74px;
+  width: 20%;
+  border-radius: 37px;
+  background: #007ff4;
+  border: none;
+  color: #ffffff;
+}
+.foot {
+  margin-top: 50px;
+  width: 100%;
+  padding: 0;
+  display: inline-flex;
+  height: 3rem;
+  background-color: #f8fdff;
+}
+.foot .logo h1 {
+  margin-left: 2%;
+  font-size: 45px;
+  font-weight: 900;
+  font-family: "Source Sans Pro";
+}
+.foot .foot-menu-list {
+  width: 50%;
+  justify-content: flex-end;
+  display: inline-flex;
+  margin-left: 40%;
+  margin-right: 6%;
+}
+
+.foot .foot-menu-list ul li {
+  z-index: 9999;
+  list-style-type: none;
+  display: inline-flex;
+  margin-left: 20px;
+  text-align: end;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.foot-menu-list ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #0073ff;
+}
+.media {
+  width: 100%;
+  padding: 0;
+  height: 13rem;
+  background: #ecf4ff;
+}
+
+.media ul li {
+  list-style-type: none;
+  display: inline-flex;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.media ul li a img {
+  text-decoration: none;
+  width: 51px;
+  list-style-type: none;
+  height: 51px;
+  border-radius: 51px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.media h6 {
+  font-size: 15px;
+  margin-left: 100px;
+  margin-top: 0px;
+  font-weight: 600;
+  color: #667c94;
+}
+
+@media (max-width: 1100px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .Navbar {
+    width: 100%;
+    height: 800px;
+    background: url("/public/images/Oval\ +\ Oval\ Copy\ Mask.png");
+    display: inline-flex;
+    z-index: 9999;
+    background-size: cover;
+  }
+
+  .logo {
+    margin-left: 100px;
+    font-family: "Source Sans Pro";
+    height: 43px;
+    width: 159px;
+    left: 50px;
+    top: 60px;
+    z-index: 9999;
+    border-radius: nullpx;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .logo {
+    color: #0073ff;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .logo span {
+    color: #ff9f6a;
+    font-family: "Source Sans Pro";
+  }
+
+  .menu-list {
+    margin-left: auto;
+    height: 10rem;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    z-index: 9999;
+  }
+
+  .menu-list ul li {
+    z-index: 9999;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 15px 25px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+  }
+  .menu-list ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #0073ff;
+  }
+
+  .button {
+    width: 150px;
+    height: 45px;
+    z-index: 9999;
+    background-color: #0073ff;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 18px;
+    margin-right: 100px;
+  }
+  .Navbar .Rectangle {
+    height: 572px;
+    width: 400px;
+    left: 645px;
+    top: 141px;
+    border-radius: 32px;
+    background: #ebeeff;
+    position: absolute;
+    left: 55.7%;
+    right: 10.47%;
+    top: 15.49%;
+    bottom: 85.62%;
+    border-radius: 32px;
+    z-index: 9999;
+  }
+
+  .Welcome-Message {
+    height: 672px;
+    width: 400px;
+    left: 745px;
+    top: 141px;
+    position: absolute;
+    left: 8.7%;
+    right: 68.47%;
+    top: 25.49%;
+    bottom: 85.62%;
+    border-radius: 32px;
+    z-index: 9999;
+  }
+  .Welcome-Message h5 {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #002348;
+  }
+  .Welcome-Message h1 {
+    font-family: "Source Sans Pro";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #003b79;
+  }
+  h6 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+
+  .Welcome-Message .button1 {
+    height: 40px;
+    width: 180px;
+    left: 0px;
+    bottom: 230px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    background: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    color: #ffffff;
+  }
+
+  .Welcome-Message .button2 {
+    height: 40px;
+    width: 180px;
+    right: 10px;
+    bottom: 230px;
+    font-size: 15px;
+    border-radius: 30px;
+    color: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .Welcome-Message .button2:hover {
+    border: 2px solid #007ff4;
+  }
+  .clinic {
+    width: 100%;
+    height: 1100px;
+    display: inline-flex;
+    background-color: #f8fdff;
+  }
+
+  .clinic .container {
+    width: 50%;
+    height: 1100px;
+    background-color: #f8fdff;
+  }
+  .clinic .container .Tagline {
+    border-radius: nullpx;
+    margin-top: 370px;
+    margin-left: 50px;
+    font-family: Source Sans Pro;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: #003b79;
+  }
+
+  .clinic .container .Tagline .msg {
+    height: 78px;
+    width: 80%;
+    left: 120px;
+    top: 2376px;
+    border-radius: nullpx;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .clinic .container .Tagline .Learnmore {
+    height: 60px;
+    width: 30%;
+    left: 0px;
+    margin-top: 50px;
+    color:#ffffff;
+    border: none;
+    border-radius: 30px;
+    background: #007ff4;
+  }
+  .clinic .container .card1 {
+    position: absolute;
+    width: 230px;
+    left: 50%;
+    top: 1850px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card2 {
+    position: absolute;
+    width: 230px;
+    left: 75%;
+    top: 2080px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card3 {
+    position: absolute;
+    width: 230px;
+    left: 50%;
+    top: 2316px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .Icon img {
+    border-radius: 100px;
+    width: 190px;
+    height: 200px;
+    margin-top: -110px;
+    margin-left: 10px;
+  }
+  .foot {
+    margin-top: 80px;
+    width: 100%;
+    padding: 0;
+    height: 5rem;
+    background-color: #f8fdff;
+  }
+  .foot .logo h1 {
+    margin-left: 50px;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: "Source Sans Pro";
+  }
+  .foot .foot-menu-list {
+    width: 50%;
+    justify-content: flex-end;
+    display: inline-flex;
+    margin-left: 45%;
+  }
+
+  .foot .foot-menu-list ul li {
+    z-index: 9999;
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 20px;
+    text-align: end;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  .foot-menu-list ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #0073ff;
+  }
+  .media {
+    width: 100%;
+    padding: 0;
+    height: 13rem;
+    background: #ecf4ff;
+  }
+
+  .media ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .media ul li a img {
+    text-decoration: none;
+    width: 40px;
+    list-style-type: none;
+    height: 40px;
+    border-radius: 51px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .media h6 {
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: 0px;
+    font-weight: 600;
+    color: #667c94;
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .Navbar {
+    width: 100%;
+    height: 800px;
+    background: url("/public/images/Oval\ +\ Oval\ Copy\ Mask.png");
+    display: flex;
+    z-index: 9999;
+    background-size: cover;
+    flex-direction: column;
+  }
+  .Navbar .burger {
+    top: 25px;
+    position: absolute;
+    margin-left: 90%;
+    display: flex;
+    z-index: 999999999;
+    visibility: visible;
+  }
+  .Navbar .burger i {
+    top: 60px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #007df2;
+  }
+
+  .logo {
+    margin-left: 100px;
+    font-family: "Source Sans Pro";
+    height: 43px;
+    width: 159px;
+    left: 50px;
+    top: 60px;
+    z-index: 999999;
+    border-radius: nullpx;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .logo {
+    color: #0073ff;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .logo span {
+    color: #ff9f6a;
+    font-family: "Source Sans Pro";
+  }
+
+  .mobile-menu {
+    margin-top: -44px;
+    width: 100%;
+    height: 20%;
+    z-index: 99999;
+    border: 2px solid #ff9f6a;
+    background-color: transparent;
+  }
+  .mobile-menu ul {
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  .mobile-menu ul li {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    list-style-type: none;
+  }
+  .mobile-menu ul li a:hover {
+    color: #ff9f6a;
+  }
+  .mobile-menu ul li a {
+    color: #0073ff;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+  .btn5 {
+    margin-top:-50px;
+    margin-left:70%;
+    width: 160px;
+    border:none;
+    z-index:999999;
+    height: 38px;
+    background-color: #0073ff;
+    font-size: 20px;
+    color:white;
+    border-radius: 100px;
+  }
+
+  .Navbar .Rectangle {
+    height: 572px;
+    width: 40%;
+    left: 645px;
+    top: 141px;
+    border-radius: 32px;
+    background: #ebeeff;
+    position: absolute;
+    left: 55.7%;
+    right: 10.47%;
+    top: 15.49%;
+    bottom: 85.62%;
+    border-radius: 32px;
+    z-index: 9999;
+  }
+
+  .Welcome-Message {
+    height: 672px;
+    width: 40%;
+    left: 745px;
+    top: 141px;
+    position: absolute;
+    left: 8.7%;
+    right: 68.47%;
+    top: 25.49%;
+    bottom: 85.62%;
+    border-radius: 32px;
+    z-index: 9999;
+  }
+  .Welcome-Message h5 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .Welcome-Message h1 {
+    font-family: "Source Sans Pro";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #003b79;
+  }
+  h6 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+
+  .Welcome-Message .button1 {
+    height: 40px;
+    width: 45%;
+    left: 0px;
+    bottom: 230px;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    color: #ffffff;
+  }
+
+  .Welcome-Message .button2 {
+    height: 40px;
+    width: 45%;
+    right: 10px;
+    bottom: 230px;
+    font-size: 12px;
+    border-radius: 30px;
+    color: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .Welcome-Message .button2:hover {
+    border: 2px solid #007ff4;
+  }
+
+  .head {
+    width: 100%;
+    height: 5rem;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+  .head h1 {
+    font-family: Source Sans Pro;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #003b79;
+  }
+
+  .main-window {
+    margin-top: 40px;
+    width: 100%;
+    height: 350px;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+  .main-window h4 {
+    height: 78px;
+    width: 546px;
+    top: 1111px;
+    margin: auto;
+    border-radius: nullpx;
+    color: #002348;
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .main-window .Element {
+    width: 90%;
+
+    margin-left: 20px;
+    margin-top: 10%;
+  }
+  .main-window .Element .card {
+    width: 30%;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    height: 45%;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  }
+
+  .main-window .Element .card:hover {
+    background-color: #0073ff;
+    width: 30%;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    height: 45%;
+    border-radius: 30px;
+    box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  }
+  .main-window .card .btn {
+    background-color: #0073ff;
+    height: 20%;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+    width: 90%;
+    margin-top: 0;
+    font-size: 20px;
+    border-bottom-left-radius: 20px;
+    opacity: 0;
+    border-bottom-right-radius: 20px;
+  }
+  .main-window .card .btn:hover {
+    visibility: visible;
+    opacity: 1;
+    color: #ffffff;
+  }
+
+  .main-window .card .btn {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  .main-window .card .btn i {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 20px;
+  }
+  .main-window .card .Icon a {
+    margin-top: 18px;
+    margin-left: 0px;
+    text-decoration: none;
+  }
+  .main-window .card .Icon a i {
+    margin-top: 18px;
+    color: #007df2;
+    margin-left: 2rem;
+    font-size: 4rem;
+  }
+  .main-window .card .Icon :hover {
+    margin-top: 18px;
+    color: #ffffff;
+    font-size: 4rem;
+  }
+
+  .main-window .card h3 {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 1rem;
+    padding-top: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .clinic {
+    width: 100%;
+    height: 900px;
+    display: inline-flex;
+    background-color: #f8fdff;
+  }
+
+  .clinic .container {
+    width: 50%;
+    height: 900px;
+    background-color: #f8fdff;
+  }
+  .clinic .container .Tagline {
+    border-radius: nullpx;
+    margin-top: 400px;
+    margin-left: 50px;
+    font-family: Source Sans Pro;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: #003b79;
+  }
+
+  .clinic .container .Tagline .msg {
+    height: 78px;
+    width: 73%;
+    left: 120px;
+    top: 2306px;
+    border-radius: nullpx;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .clinic .container .Tagline .button {
+    height: 60px;
+    width: 30%;
+    left: 0px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background: #007ff4;
+  }
+  .clinic .container .card1 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 50%;
+    top: 1750px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card2 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 75%;
+    top: 1900px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card3 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 50%;
+    top: 2070px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .Icon img {
+    border-radius: 100px;
+    width: 160px;
+    height: 190px;
+    margin-top: -110px;
+    margin-left: 10px;
+  }
+  .clinic .container h3 {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .xcontainer {
+    width: 100%;
+    height: auto;
+    background: url("/public/images/Oval\ Copy\ 2\(1\).png");
+  }
+  .xcontainer .head {
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    z-index: 9999;
+  }
+  .head h1 {
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-size: 44px;
+    font-weight: 600;
+    background-color: transparent;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #003b79;
+  }
+
+  .main-window {
+    margin-top: 40px;
+    width: 100%;
+    background-color: transparent;
+    height: 500px;
+    justify-content: end;
+    z-index: 9999;
+  }
+
+  .main-window h4 {
+    height: 78px;
+    width: 546px;
+    top: 1111px;
+    margin: auto;
+    border-radius: nullpx;
+    color: #002348;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .main-window .Elements {
+    width: 90%;
+    display: inline-flex;
+    height: 600px;
+    margin: auto;
+    padding-left: 40px;
+    margin-top: 50px;
+  }
+  .main-window .card9 {
+    width: 22%;
+    margin-left: 40px;
+    margin-right: 10px;
+    height: 50%;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  }
+
+  .main-window .card9 .frame {
+    font-weight: 700;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    background: #aed3e2;
+    height: 80%;
+    color: #003b79;
+  }
+  .main-window .card9 h3 {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .main-window .card9 h2 {
+    /* Mask */
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 18px;
+    font-size: 15px;
+    color: #002348;
+  }
+  .main-window .card9 h6 {
+    font-size: 12px;
+    top: 0;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #002348;
+  }
+  .heads {
+    width: 100%;
+    height: 5rem;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+
+  .heads h1 {
+    font-family: Source Sans Pro;
+    font-size: 40px;
+    border: none;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 80px;
+    color: #003b79;
+  }
+
+  .container5 {
+    padding: 0 50px;
+    width: 90%;
+    height: 400px;
+    background: #f8fdff;
+    display: inline-flex;
+  }
+
+  .container5 .mcard {
+    width: 45%;
+    height: 250px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 45px;
+  }
+  .container5 .mcard img {
+    z-index: 999;
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+    border: none;
+    margin-left: 90%;
+    padding-top: 10px;
+    margin-top: -40px;
+  }
+
+  .comment-box {
+    width: 45%;
+    height: 150px;
+    margin: 3% 7%;
+  }
+  .comment-box h5 {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    width: 350px;
+    height: 80px;
+    padding: 0 10px 0 0;
+    font-weight: 400;
+    line-height: 22px;
+    padding-right: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .comment-box .patient {
+    width: 350px;
+    display: inline-flex;
+    height: 80px;
+  }
+  .comment-box .patient .avtar {
+    width: 50px;
+    height: 50px;
+  }
+  .comment-box .patient .avtar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px solid black;
+    margin: 0px 10px;
+  }
+  .comment-box .patient .Name h3 {
+    margin: 5px 0px 0px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Source Sans Pro";
+  }
+  .comment-box .patient .Name h6 {
+    margin: 0px 0px 0px 15px;
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+  }
+  .container6 {
+    width: 100%;
+    height: 600px;
+    z-index: 90;
+    background-color: transparent;
+  }
+  .container6 .cardx {
+    width: 88%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    height: 478px;
+    background-color: #007ff4;
+    z-index: 999;
+    border-radius: 20px;
+  }
+  .container6 .cardx .head3 {
+    width: 100%;
+    height: 5rem;
+    background: transparent;
+  }
+  .container6 .cardx .head3 h1 {
+    font-family: Source Sans Pro;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 78px;
+    padding-top: 50px;
+    z-index: 9999;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .container6 .cardx .head3 h4 {
+    height: 78px;
+    width: 546px;
+    top: 1111px;
+    margin: auto;
+    border-radius: nullpx;
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
+@media (max-width: 725px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .Navbar {
+    width: 100%;
+    height: 800px;
+    background: url("/public/images/Oval\ +\ Oval\ Copy\ Mask.png");
+    display: inline-flex;
+    z-index: 9999;
+    background-size: cover;
+  }
+  .Navbar .burger {
+    top: 25px;
+    position: absolute;
+    margin-left: 90%;
+    display: flex;
+    z-index: 999999999;
+    visibility: visible;
+  }
+  .Navbar .burger i {
+    top: 60px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #007df2;
+  }
+
+  .logo {
+    margin-left: 50px;
+    font-family: "Source Sans Pro";
+    height: 43px;
+    width: 159px;
+    left: 50px;
+    top: 60px;
+    z-index: 9999;
+    border-radius: nullpx;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .logo {
+    color: #0073ff;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .logo span {
+    color: #ff9f6a;
+    font-family: "Source Sans Pro";
+  }
+
+  .mobile-menu {
+    margin-top: -44px;
+    width: 100%;
+  
+    height: 20%;
+    z-index: 99999;
+    border: 2px solid #ff9f6a;
+    background-color: transparent;
+  }
+  .mobile-menu ul {
+    margin-top: 100px;
+    margin-left: -10px;
+  }
+  .mobile-menu ul li {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    list-style-type: none;
+  }
+  .mobile-menu ul li a:hover {
+    color: #ff9f6a;
+  }
+  .mobile-menu ul li a {
+    color: #0073ff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+  .btn5 {
+    margin-top:-50px;
+    margin-left:75%;
+    width: 120px;
+    border:none;
+    z-index:999999;
+    height: 32px;
+    background-color: #0073ff;
+    font-size: 15px;
+    color:white;
+    border-radius: 100px;
+  }
+  .Navbar .Rectangle {
+    height: 572px;
+    width: 40%;
+    left: 645px;
+    top: 141px;
+    border-radius: 32px;
+    background: #ebeeff;
+    position: absolute;
+    left: 55.7%;
+    right: 10.47%;
+    top: 15.49%;
+    bottom: 85.62%;
+    border-radius: 32px;
+    z-index: 9999;
+  }
+
+  .Welcome-Message {
+    height: 672px;
+    width: 40%;
+    left: 745px;
+    top: 141px;
+    position: absolute;
+    left: 8.7%;
+    right: 68.47%;
+    top: 25.49%;
+    bottom: 85.62%;
+    border-radius: 32px;
+    z-index: 9999;
+  }
+  .Welcome-Message h5 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .Welcome-Message h1 {
+    font-family: "Source Sans Pro";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #003b79;
+  }
+  h6 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+
+  .Welcome-Message .button1 {
+    height: 40px;
+    width: 45%;
+    left: 0px;
+    bottom: 230px;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    color: #ffffff;
+  }
+
+  .Welcome-Message .button2 {
+    height: 40px;
+    width: 45%;
+    right: 10px;
+    bottom: 230px;
+    font-size: 12px;
+    border-radius: 30px;
+    color: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .Welcome-Message .button2:hover {
+    border: 2px solid #007ff4;
+  }
+
+  .head {
+    width: 100%;
+    height: 5rem;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+  .head h1 {
+    font-family: Source Sans Pro;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #003b79;
+  }
+
+  .main-window {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+  .main-window h4 {
+    height: 78px;
+    width: 546px;
+    top: 1111px;
+    margin: auto;
+    border-radius: nullpx;
+    color: #002348;
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .main-window .Element {
+    width: 90%;
+    display: flex;
+    height: 800px;
+    padding-left: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-top: 10%;
+  }
+  .main-window .Element .card {
+    width: 270px;
+    margin-bottom: 50px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    height: 300px;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  }
+
+  .main-window .Element .card:hover {
+    background-color: #0073ff;
+    width: 270px;
+    margin-bottom: 50px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    height: 320;
+    border-radius: 30px;
+    box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  }
+  .main-window .card .btn {
+    background-color: #0073ff;
+    height: 100px;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+    width: 250px;
+    margin-top: 0;
+    font-size: 20px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    opacity: 0;
+    border-bottom-right-radius: 20px;
+  }
+  .main-window .card .btn:hover {
+    visibility: visible;
+    opacity: 1;
+    color: #ffffff;
+  }
+
+  .main-window .card .btn {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  .main-window .card .btn i {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 50px;
+  }
+  .main-window .card .Icon a {
+    margin-top: 18px;
+    margin-left: 0px;
+    text-decoration: none;
+  }
+  .main-window .card .Icon a i {
+    margin-top: 18px;
+    color: #007df2;
+    margin-left: 2rem;
+    font-size: 6rem;
+  }
+  .main-window .card .Icon :hover {
+    margin-top: 18px;
+    color: #ffffff;
+    font-size: 4rem;
+  }
+
+  .main-window .card h3 {
+    font-family: Source Sans Pro;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 1rem;
+    padding-top: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .clinic {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: #f8fdff;
+  }
+
+  .clinic .container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color: #f8fdff;
+  }
+  .clinic .container .Tagline {
+    border-radius: nullpx;
+    margin-left: 30px;
+    margin-top: 150px;
+    font-family: Source Sans Pro;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: #003b79;
+  }
+
+  .clinic .container .Tagline .msg {
+    height: 78px;
+    width: 90%;
+    left: 50px;
+    top: 15;
+    border-radius: nullpx;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .clinic .container .Tagline .button {
+    height: 60px;
+    width: 100px;
+    left: 5px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background: #007ff4;
+  }
+  .clinic .container .card1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    top: 2000px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 75%;
+    top: 2100px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    top: 2250px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .Icon img {
+    border-radius: 100px;
+    width: 150px;
+    height: 170px;
+    margin-top: -110px;
+    margin-left: 5px;
+  }
+  .clinic .container h3 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .xcontainer {
+    width: 100%;
+    height: auto;
+    position: cover;
+    background: url("/public/images/Oval\ Copy\ 2\(1\).png");
+  }
+  .xcontainer .head {
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    z-index: 9999;
+  }
+  .head h1 {
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-size: 44px;
+    font-weight: 600;
+    background-color: transparent;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #003b79;
+  }
+
+  .main-window {
+    margin-top: 40px;
+    width: 100%;
+    background-color: transparent;
+    height: 1000px;
+    justify-content: end;
+    z-index: 9999;
+  }
+
+  .main-window h4 {
+    height: 78px;
+    width: 546px;
+    top: 1111px;
+    margin: auto;
+    border-radius: nullpx;
+    color: #002348;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .main-window .Elements {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 40px;
+    margin-top: 50px;
+  }
+  .main-window .card9 {
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 10px;
+    height: 350px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  }
+
+  .main-window .card9 .frame {
+    font-weight: 700;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    background: #aed3e2;
+    height: 80%;
+    color: #003b79;
+  }
+  .main-window .card9 h3 {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .main-window .card9 h2 {
+    /* Mask */
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #002348;
+  }
+  .main-window .card9 h6 {
+    font-size: px;
+    top: 0;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #002348;
+  }
+  .heads {
+    width: 100%;
+    height: 5rem;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+
+  .heads h1 {
+    font-family: Source Sans Pro;
+    font-size: 40px;
+    border: none;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 80px;
+    color: #003b79;
+  }
+
+  .container5 {
+    padding: 0 50px;
+    width: 90%;
+    height: 400px;
+    background: #f8fdff;
+    display: inline-flex;
+  }
+
+  .container5 .mcard {
+    width: 120%;
+    height: 250px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 80px;
+  }
+  .container5 .mcard img {
+    z-index: 999;
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+    border: none;
+    margin-left: 90%;
+    padding-top: 10px;
+    margin-top: -40px;
+  }
+
+  .comment-box {
+    width: 45%;
+    height: 150px;
+    margin: 3% 7%;
+  }
+  .comment-box h5 {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    width: 350px;
+    height: 80px;
+    padding: 0 10px 0 0;
+    font-weight: 400;
+    line-height: 22px;
+    padding-right: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .comment-box .patient {
+    width: 350px;
+    display: inline-flex;
+    height: 80px;
+  }
+  .comment-box .patient .avtar {
+    width: 50px;
+    height: 50px;
+  }
+  .comment-box .patient .avtar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    border: 1px solid black;
+    margin: 0px 10px;
+  }
+  .comment-box .patient .Name h3 {
+    margin: 5px 0px 0px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Source Sans Pro";
+  }
+  .comment-box .patient .Name h6 {
+    margin: 0px 0px 0px 15px;
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+  }
+  .container6 {
+    width: 100%;
+    height: 600px;
+    z-index: 90;
+    background-color: transparent;
+  }
+  .container6 .cardx {
+    width: 88%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    height: 300px;
+    background-color: #007ff4;
+    z-index: 999;
+    border-radius: 20px;
+  }
+  .container6 .cardx .head3 {
+    width: 100%;
+    height: 5rem;
+    background: transparent;
+  }
+  .container6 .cardx .head3 h1 {
+    font-family: Source Sans Pro;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-top: 20px;
+    z-index: 9999;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .container6 .cardx .head3 h4 {
+    height: 60px;
+    width: 546px;
+    margin-top: 0;
+    margin: auto;
+    border-radius: nullpx;
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .Slider {
+    width: 70%;
+    height: 80px;
+    margin-top: 80px;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: #ffffff;
+  }
+  .Slider input {
+    width: 60%;
+    height: 20px;
+    border: 1px solid #ffffff;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 20px;
+    background-color: #ffffff;
+  }
+  .Slider .send {
+    height: 30px;
+    width: 20%;
+    border-radius: 20px;
+    background: #007ff4;
+    border: none;
+    color: #ffffff;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .Navbar {
+    width: 100%;
+    height: 500px;
+    background: url("/public/images/Oval\ +\ Oval\ Copy\ Mask.png");
+    display: inline-flex;
+    z-index: 9999;
+    background-size: cover;
+  }
+  .Navbar .burger {
+    top: 25px;
+    position: absolute;
+    margin-left: 90%;
+    display: flex;
+    z-index: 999999999;
+    visibility: visible;
+  }
+  .Navbar .burger i {
+    top: 60px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #007df2;
+  }
+  .logo {
+    margin-left: 30px;
+    font-family: "Source Sans Pro";
+    height: 43px;
+    left: 50px;
+    top: 30px;
+    z-index: 9999;
+    border-radius: nullpx;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .logo {
+    color: #0073ff;
+    font-size: 25px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .logo span {
+    color: #ff9f6a;
+    font-family: "Source Sans Pro";
+  }
+  .mobile-menu {
+    margin-top: -44px;
+    width: 100%;
+    height: 30%;
+    z-index: 99999;
+    border: 2px solid #ff9f6a;
+    background-color: transparent;
+  }
+  .mobile-menu ul {
+    margin-top: 100px;
+    margin-left:-25px;
+  }
+  .mobile-menu ul li {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-right:0px;
+    margin-left: 20px;
+    list-style-type: none;
+  }
+  .mobile-menu ul li a:hover {
+    color: #ff9f6a;
+  }
+  .mobile-menu ul li a {
+    color: #0073ff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+  .btn5 {
+    margin-top:-8%;
+    margin-left:70%;
+    width: 100px;
+    border:none;
+    z-index:999999;
+    height: 30px;
+    background-color: #0073ff;
+    font-size: 15px;
+    color:white;
+    border-radius: 100px;
+  }
+  .Navbar .Rectangle {
+    height: 572px;
+    width: 10%;
+    left: 645px;
+    top: 141px;
+    border-radius: 32px;
+    background: #ebeeff;
+    position: absolute;
+    left: 55.7%;
+    visibility: hidden;
+    right: 10.47%;
+    top: 15.49%;
+    bottom: 85.62%;
+    border-radius: 32px;
+    z-index: 9999;
+  }
+
+  .Welcome-Message {
+    height: 500px;
+    width: 90%;
+    left: 745px;
+    top: 141px;
+    position: absolute;
+    left: 8.7%;
+    right: 68.47%;
+    top: 25.49%;
+    bottom: 85.62%;
+    border-radius: 32px;
+    z-index: 9999;
+  }
+  .Welcome-Message h5 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .Welcome-Message h1 {
+    font-family: "Source Sans Pro";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #003b79;
+  }
+  h6 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+
+  .Welcome-Message .button1 {
+    height: 40px;
+    width: 45%;
+    left: 0px;
+    bottom: 80px;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    color: #ffffff;
+  }
+
+  .Welcome-Message .button2 {
+    height: 40px;
+    width: 45%;
+    right: 10px;
+    bottom: 80px;
+    font-size: 12px;
+    border-radius: 30px;
+    color: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .Welcome-Message .button2:hover {
+    border: 2px solid #007ff4;
+  }
+
+  .head {
+    margin-top: 200px;
+    width: 100%;
+    height: 3rem;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+  .head h1 {
+    font-family: Source Sans Pro;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #003b79;
+  }
+
+  .main-window {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+
+  .main-window .Element {
+    width: 90%;
+    display: flex;
+    height: 700px;
+    padding-left: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-top: 10%;
+  }
+  .main-window .Element .card {
+    width: 180px;
+    margin-bottom: 50px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    height: 270px;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  }
+
+  .main-window .Element .card:hover {
+    background-color: #0073ff;
+    width: 180px;
+    margin-bottom: 50px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    height: 290px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  }
+  .main-window .card .btn {
+    background-color: #0073ff;
+    height: 70px;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+    width: 170px;
+    margin-top: 0;
+    font-size: 20px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    opacity: 0;
+    border-bottom-right-radius: 20px;
+  }
+  .main-window .card .btn:hover {
+    visibility: visible;
+    opacity: 1;
+    color: #ffffff;
+  }
+
+  .main-window .card .btn {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 5px;
+  }
+  .main-window .card .btn i {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 50px;
+  }
+  .main-window .card .Icon a {
+    margin-top: 18px;
+    margin-left: 0px;
+    text-decoration: none;
+  }
+  .main-window .card .Icon a i {
+    margin-top: 18px;
+    color: #007df2;
+    margin-left: 2rem;
+    font-size: 6rem;
+  }
+  .main-window .card .Icon :hover {
+    margin-top: 18px;
+    color: #ffffff;
+    font-size: 6rem;
+  }
+
+  .main-window .card h3 {
+    font-family: Source Sans Pro;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 1rem;
+    padding-top: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .clinic {
+    margin-top: 0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #f8fdff;
+  }
+
+  .clinic .container {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    height: 500px;
+    background-color: #f8fdff;
+  }
+  .clinic .container .Tagline {
+    border-radius: nullpx;
+    height: 600px;
+    margin-top: -500px;
+    padding-top: 0;
+    font-family: Source Sans Pro;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0px;
+    align-items: center;
+    justify-content: center;
+    color: #003b79;
+  }
+
+  .clinic .container .Tagline .msg {
+    height: 250px;
+    width: 90%;
+    margin-top:-100px;
+    left: 50px;
+    top: 15;
+    border-radius: nullpx;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .clinic .container .Tagline .Learnmore {
+    height: 45px;
+    width: 100px;
+    left: 5px;
+    margin-top: -600px;
+    border-radius: 30px;
+    background: #007ff4;
+  }
+  .clinic .container .card1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 120px;
+    top: 1980px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 65%;
+    top: 2100px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 120px;
+    top: 2260px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .Icon img {
+    border-radius: 100px;
+    width: 150px;
+    height: 170px;
+    margin-top: -110px;
+    margin-left: 5px;
+  }
+  .clinic .container h3 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .xcontainer {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    position: cover;
+    background: url("/public/images/Oval\ Copy\ 2\(1\).png");
+  }
+  .xcontainer .head {
+    margin-top: 300px;
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    z-index: 9999;
+  }
+  .head h1 {
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-size: 38px;
+    font-weight: 600;
+    background-color: transparent;
+    line-height: 80px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #003b79;
+  }
+
+  .main-window {
+    margin-top: 40px;
+    width: 100%;
+    background-color: transparent;
+    height: 1000px;
+    justify-content: end;
+    z-index: 9999;
+  }
+
+  .main-window h4 {
+    height: 58px;
+    width: 100%;
+    top: 1111px;
+    margin: auto;
+    border-radius: nullpx;
+    color: #002348;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .main-window .Elements {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 0px;
+    padding-left: 40px;
+    margin-top: 50px;
+  }
+  .main-window .card9 {
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 350px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  }
+
+  .main-window .card9 .frame {
+    font-weight: 700;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    background: #aed3e2;
+    height: 80%;
+    color: #003b79;
+  }
+  .main-window .card9 h3 {
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .main-window .card9 h2 {
+    /* Mask */
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #002348;
+  }
+  .main-window .card9 h6 {
+    font-size: px;
+    top: 0;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #002348;
+  }
+  .heads {
+    width: 100%;
+    height: 5rem;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+
+  .heads h1 {
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-size: 38px;
+    border: none;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 0px;
+    color: #003b79;
+  }
+
+  .container5 {
+    padding: 0px;
+    width: 100%;
+    height: 400px;
+    background: #f8fdff;
+    display: inline-flex;
+  }
+
+  .container5 .mcard {
+    width: 120%;
+    height: 250px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .container5 .mcard img {
+    z-index: 999;
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+    border: none;
+    margin-left: 90%;
+    padding-top: 10px;
+    margin-top: -40px;
+  }
+
+  .comment-box {
+    width: 45%;
+    height: 150px;
+    margin: 3% 7%;
+  }
+  .comment-box h5 {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    width: 350px;
+    height: 80px;
+    padding: 0 10px 0 0;
+    font-weight: 400;
+    line-height: 22px;
+    padding-right: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .comment-box .patient {
+    width: 350px;
+    display: inline-flex;
+    height: 80px;
+  }
+  .comment-box .patient .avtar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  .comment-box .patient .avtar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    border: 1px solid black;
+    margin: 0px 10px;
+  }
+  .comment-box .patient .Name h3 {
+    margin: 5px 0px 0px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Source Sans Pro";
+  }
+  .comment-box .patient .Name h6 {
+    margin: 0px 0px 0px 15px;
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+  }
+  .container6 {
+    width: 100%;
+    height: 400px;
+    z-index: 90;
+    background-color: transparent;
+  }
+  .container6 .cardx {
+    width: 88%;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+    height: 300px;
+    background-color: #007ff4;
+    z-index: 999;
+    border-radius: 20px;
+  }
+  .container6 .cardx .head3 {
+    width: 100%;
+    height: 5rem;
+    background: transparent;
+  }
+  .container6 .cardx .head3 h1 {
+    font-family: Source Sans Pro;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-top: 20px;
+    z-index: 9999;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .container6 .cardx .head3 h4 {
+    height: 60px;
+    width: 100%;
+    margin-top: 0;
+    margin: auto;
+    border-radius: nullpx;
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .Slider {
+    width: 70%;
+    height: 80px;
+    margin-top: 80px;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: #ffffff;
+  }
+  .Slider input {
+    width: 60%;
+    height: 20px;
+    border: 1px solid #ffffff;
+    text-align: left;
+    font-size: 8px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+  }
+  .Slider .send {
+    height: 20px;
+    width: 20%;
+    font-size: 8px;
+    border-radius: 20px;
+    background: #007ff4;
+    border: none;
+    color: #ffffff;
+  }
+  .foot {
+    margin-top: 30px;
+    width: 98%;
+    display: inline-flex;
+    padding: 0;
+    height: 3rem;
+    background-color: #f8fdff;
+  }
+  .foot .logo h1 {
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Source Sans Pro";
+  }
+  .foot .foot-menu-list {
+    width: 60%;
+    justify-content: flex-end;
+    display: inline-flex;
+    margin-left: 0;
+  }
+
+  .foot .foot-menu-list ul li {
+    z-index: 9999;
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: start;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  .foot-menu-list ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #0073ff;
+  }
+  .media {
+    width: 99%;
+    padding: 0;
+    height: 10rem;
+    background: #ecf4ff;
+  }
+
+  .media ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .media ul li a img {
+    text-decoration: none;
+    width: 30px;
+    list-style-type: none;
+    height: 30px;
+    border-radius: 51px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .media h6 {
+    font-size: 10px;
+    margin-left: 60px;
+    margin-top: 0px;
+    font-weight: 600;
+    color: #667c94;
+  }
+}
+@media (max-width: 350px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .Navbar {
+    width: 100%;
+    height: 500px;
+    background: url("/public/images/Oval\ +\ Oval\ Copy\ Mask.png");
+    display: inline-flex;
+    z-index: 9999;
+    background-size: cover;
+  }
+  .Navbar .burger {
+    top: 25px;
+    position: absolute;
+    margin-left: 90%;
+    display: flex;
+    z-index: 999999999;
+    visibility: visible;
+  }
+  .Navbar .burger i {
+    top: 60px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #007df2;
+  }
+  .logo {
+    margin-left: 30px;
+    font-family: "Source Sans Pro";
+    height: 43px;
+    left: 50px;
+    top: 30px;
+    z-index: 9999;
+    border-radius: nullpx;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .logo {
+    color: #0073ff;
+    font-size: 25px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .logo span {
+    color: #ff9f6a;
+    font-family: "Source Sans Pro";
+  }
+  .mobile-menu {
+    margin-top: -44px;
+    width: 100%;
+    height: 30%;
+    z-index: 99999;
+    border: 2px solid #ff9f6a;
+    background-color: transparent;
+  }
+  .mobile-menu ul {
+    margin-top: 100px;
+    margin-left:-25px;
+  }
+  .mobile-menu ul li {
+    display: inline-flex;
+    margin-top: 20px;
+    margin-right:0px;
+    margin-left: 20px;
+    list-style-type: none;
+  }
+  .mobile-menu ul li a:hover {
+    color: #ff9f6a;
+  }
+  .mobile-menu ul li a {
+    color: #0073ff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+  .btn5 {
+    margin-top:-40px;
+    margin-left:75%;
+    width: 80px;
+    border:none;
+    z-index:999999;
+    height: 28px;
+    background-color: #0073ff;
+    font-size: 15px;
+    color:white;
+    border-radius: 100px;
+  }
+  .Navbar .Rectangle {
+    visibility: hidden;
+  }
+
+  .Welcome-Message {
+    height: 500px;
+    width: 90%;
+    left: 745px;
+    top: 120px;
+    position: absolute;
+    left: 8.7%;
+    right: 68.47%;
+    top: 25.49%;
+    bottom: 85.62%;
+    border-radius: 32px;
+    z-index: 9999;
+  }
+  .Welcome-Message h5 {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .Welcome-Message h1 {
+    font-family: "Source Sans Pro";
+    font-size: 35px;
+    font-weight: 700;
+    margin-top:-50px;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #003b79;
+  }
+  h6 {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    margin-top:-20px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+
+  .Welcome-Message .button1 {
+    height: 40px;
+    width: 45%;
+    left: 0px;
+    bottom: 180px;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    color: #ffffff;
+  }
+
+  .Welcome-Message .button2 {
+    height: 40px;
+    width: 45%;
+    right: 10px;
+    bottom: 180px;
+    font-size: 12px;
+    border-radius: 30px;
+    color: #007ff4;
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .Welcome-Message .button2:hover {
+    border: 2px solid #007ff4;
+  }
+
+  .head {
+    margin-top: 50px;
+    width: 100%;
+    height: 3rem;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+  .head h1 {
+    font-family: Source Sans Pro;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #003b79;
+  }
+
+  .main-window {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+
+  .main-window .Element {
+    width: 90%;
+    display:flex;
+    height: 700px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    margin-left: 15px;
+    margin-top: 10%;
+  }
+  .main-window .Element .card {
+    width: 150px;
+    margin-top:50px;
+    margin-bottom: 0px;
+    height: 220px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  }
+
+  .main-window .Element .card:hover {
+    background-color: #0073ff;
+    width: 150px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 240px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 50px 12.5px rgba(0, 59, 121, 0.0725798);
+  }
+  .main-window .card .btn {
+    background-color: #0073ff;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+    width: 145px;
+    margin-top: 0;
+    font-size: 15px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    opacity: 0;
+    border-bottom-right-radius: 20px;
+  }
+  .main-window .card .btn:hover {
+    visibility: visible;
+    opacity: 1;
+    color: #ffffff;
+  }
+
+  .main-window .card .btn {
+    text-decoration: none;
+    font-size: 15x;
+    margin-left: 5px;
+  }
+  .main-window .card .btn i {
+    text-decoration: none;
+    font-size:10px;
+    margin-left: 45px;
+  }
+  .main-window .card .Icon a {
+    margin-top: 18px;
+    margin-left: 0px;
+    text-decoration: none;
+  }
+  .main-window .card .Icon a i {
+    margin-top: 18px;
+    color: #007df2;
+    margin-left: 2rem;
+    font-size: 4rem;
+  }
+  .main-window .card .Icon :hover {
+    margin-top: 18px;
+    color: #ffffff;
+    font-size: 6rem;
+  }
+
+  .main-window .card h3 {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-left: 1rem;
+    padding-top: 5px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .clinic {
+    margin-top: 0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #f8fdff;
+  }
+
+  .clinic .container {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    height: 500px;
+    background-color: #f8fdff;
+  }
+  .clinic .container .Tagline {
+    border-radius: nullpx;
+    height: 400px;
+    margin-top: -600px;
+    padding-top: 0;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0px;
+    align-items: center;
+    justify-content: center;
+    color: #003b79;
+  }
+
+  .clinic .container .Tagline .msg {
+    height: 200px;
+    width: 90%;
+    margin-top:-60px;
+    left: 0px;
+    top: 15;
+    border-radius: nullpx;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .clinic .container .Tagline .Learnmore {
+    height: 45px;
+    width: 100px;
+    left: 5px;
+    margin-top: -350px;
+    border-radius: 30px;
+    background: #007ff4;
+  }
+  .clinic .container .card1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 1600px;
+    left:100px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 1880px;
+    left:100px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .card3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 100px;
+    top: 2130px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+  }
+  .clinic .container .Icon img {
+    border-radius: 100px;
+    width: 150px;
+    height: 170px;
+    margin-top: -110px;
+    margin-left: 5px;
+  }
+  .clinic .container h3 {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .xcontainer {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    position: cover;
+    background: url("/public/images/Oval\ Copy\ 2\(1\).png");
+  }
+  .xcontainer .head {
+    margin-top: 250px;
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    z-index: 9999;
+  }
+  .head h1 {
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+    background-color: transparent;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #003b79;
+  }
+
+  .main-window {
+    margin-top:-10px;
+    width: 100%;
+    background-color: transparent;
+    height: 1000px;
+    justify-content: end;
+    z-index: 9999;
+  }
+
+  .main-window h4 {
+    height: 40px;
+    width: 90%;
+    margin-top:-20px;
+    border-radius: nullpx;
+    color: #002348;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .main-window .Elements {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 0px;
+    padding-left: 30px;
+    margin-top: 50px;
+  }
+  .main-window .card9 {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
+    height: 280px;
+    margin-bottom:10px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  }
+
+  .main-window .card9 .frame {
+    font-weight: 700;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    background: #aed3e2;
+    height: 80%;
+    color: #003b79;
+  }
+  .main-window .card9 h3 {
+    font-family: Source Sans Pro;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 10px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #002348;
+  }
+  .main-window .card9 h2 {
+    /* Mask */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #002348;
+  }
+  .main-window .card9 h6 {
+    font-size: 12px;
+    top: 0;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #002348;
+  }
+  .heads {
+    margin-top: -250px;
+    width: 100%;
+    height: 5rem;
+    background-color: #f8fdff;
+    z-index: 9999;
+  }
+
+  .heads h1 {
+    width: 100%;
+    font-family: Source Sans Pro;
+    font-size: 25px;
+    border: none;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 0px;
+    color: #003b79;
+  }
+
+  .container5 {
+    padding: 0px;
+    width: 100%;
+    margin-top: -50px;
+    height: 280px;
+    background: #f8fdff;
+    display: inline-flex;
+  }
+
+  .container5 .mcard {
+    width: 80%;
+    height: 160px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .container5 .mcard img {
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+    border: none;
+    margin-left: 90%;
+    padding-top: 10px;
+    margin-top: -30px;
+  }
+
+  .comment-box {
+    width: 40%;
+    height: 120px;
+    margin: 2px 15px 2px 15px;
+  }
+  .comment-box h5 {
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    width: 240px;
+    height: 80px;
+    padding: 0;
+    font-weight: 400;
+    line-height: 18px;
+    padding-right: 20px;
+    margin-right: 60px;
+    margin-bottom: -5px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .comment-box .patient {
+    width: 260px;
+    display: inline-flex;
+    height: 50px;
+  }
+  .comment-box .patient .avtar {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+  }
+  .comment-box .patient .avtar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 0px 10px;
+  }
+  .comment-box .patient .Name h3 {
+    margin: -3px 0px 0px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Source Sans Pro";
+  }
+  .comment-box .patient .Name h6 {
+    margin: -10px 0px 0px 20px;
+    font-size: 10px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+  }
+  .container6 {
+    width: 100%;
+    height: 300px;
+    z-index: 90;
+    background-color: transparent;
+  }
+  .container6 .cardx {
+    width: 88%;
+    margin-top: -5px;
+    margin-left: 22px;
+    margin-right: 100px;
+    height: 160px;
+    background-color: #007ff4;
+    z-index: 999;
+    border-radius: 20px;
+  }
+  .container6 .cardx .head3 {
+    width: 100%;
+    height: 2rem;
+    background: transparent;
+  }
+  .container6 .cardx .head3 h1 {
+    font-family: Source Sans Pro;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    padding-top: 20px;
+    z-index: 9999;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .container6 .cardx .head3 h4 {
+    height: 60px;
+    width: 100%;
+    margin-top:-200px;
+    margin: auto;
+    border-radius: nullpx;
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .Slider {
+    width: 70%;
+    height: 40px;
+    margin-top:60px;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: #ffffff;
+  }
+  .Slider input {
+    width: 60%;
+    height: 20px;
+    border: 1px solid #ffffff;
+    text-align: left;
+    font-size: 6px;
+    margin-top: 10px;
+    margin-left:5px;
+    margin-right: 10px;
+    background-color: #ffffff;
+  }
+  .Slider .send {
+    height: 15px;
+    width: 20%;
+    font-size: 5px;
+    border-radius: 20px;
+    background: #007ff4;
+    border: none;
+    color: #ffffff;
+  }
+  .foot {
+    margin-top: 10px;
+    width: 98%;
+    display: inline-flex;
+    padding: 0;
+    height: 2rem;
+    background-color:transparent;
+  }
+  .foot .logo h1 {
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top:5px;
+    font-weight: 900;
+    font-family: "Source Sans Pro";
+  }
+  .foot .foot-menu-list {
+    width: 80%;
+    justify-content: flex-end;
+    display: inline-flex;
+    margin-left: 0;
+  }
+
+  .foot .foot-menu-list ul li {
+    z-index: 9999;
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 8px;
+    margin-top: -5px;
+    text-align: start;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  .foot-menu-list ul li a {
+    text-decoration: none;
+    font-size: 8px;
+    color: #0073ff;
+  }
+  .media {
+    width: 99%;
+    padding: 0;
+    height: 4rem;
+    background: #ecf4ff;
+  }
+
+  .media ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left:-5px;
+    padding-left:5px;
+  }
+  .media ul li a img {
+    text-decoration: none;
+    width: 15px;
+    list-style-type: none;
+    height: 15px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 0px;
+  }
+  .media h6 {
+    font-size: 5px;
+    margin-left: 40px;
+    margin-top: -25px;
+    font-weight: 600;
+    color: #667c94;
+  }
+}
