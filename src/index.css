@@ -3214,7 +3214,7 @@ h3 {
     color: #667c94;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 449px) {
   body {
     width: 100%;
     height: auto;
