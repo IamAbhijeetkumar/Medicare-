@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Navbar = () => {
  
-    const [showmenu , setShowmenu] = useState(false);
+    const [showmenu , setShowmenu] = useState(true);
     return (
         <div>
             <nav className='Navbar'>
